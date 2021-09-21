@@ -37,8 +37,7 @@ public class MainActivity extends AppCompatActivity {
         permissions.add(ACCESS_COARSE_LOCATION);
 
         permissionsToRequest = findUnAskedPermissions(permissions);
-        //get the permissions we have asked for before but are not granted..
-        //we will store this in a global list to access later.
+        //get the permissions
 
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
